@@ -1,0 +1,4 @@
+- L'Ethereum utilise KECCAK.
+
+- Le NIST a modifié le remplissage en SHA3-256 (M) = KECCAK [512] (M || 01, 256)
+car le NIST a spécifie la maniere de compléter le message lorsque la longueur du message n'est pas égale à la taille requise en entrée par la fonction éponge
